@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asksstyle.css">
+    <title>Pokémon</title>
+</head>
+
+<body>
+    <div class="menu">
+        <header><a href="index.html"><img src="Pokemon-logo-497D61B223-seeklogo.com.png"></a></header>
+        <a href="pokedex.html">Pokédex</a>
+        <a href="perguntas.html">Perguntas</a>
+        <a href="jogos.html">Pokémon Red & Blue</a>
+        <a href="locais.html">Comunidade</a>
+    </div>
+    <div class="artigo">
+        <h1>Faça uma Pergunta</h1>
+        <form name="formulario">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome"><br>
+            <label for="pergunta">A pergunta em uma frase:</label><br>
+            <input type="text" id="quest"><br>
+            <label for="detalhes">Mais informações sobre a pergunta:</label><br>
+            <input type="text" id="mais" class="mais"><br>
+            <label for="versao">Versão:</label>
+            <select id="versao" name="versao">
+                <option value="red">Pokémon Red</option>
+                <option value="blue">Pokémon Blue</option>
+                <option value="yellow">Pokémon Yellow</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>

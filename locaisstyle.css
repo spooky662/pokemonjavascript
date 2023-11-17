@@ -1,0 +1,55 @@
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 20px;
+}
+
+.menu {
+    font-size:30px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 0px solid #f00;
+    background: darkgray;
+    color: blue;
+    border-radius: 5px;
+}
+
+.artigo {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.info {
+    padding: 3px 10px;
+    margin: 20px;
+    border: 0px solid #f00;
+    background: lightgray;
+    color: black;
+    border-radius: 5px;
+}
+
+.grid-container {
+    margin: 8px;
+    display: grid;
+    text-align: center;
+    font-style: bold;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

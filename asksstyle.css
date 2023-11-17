@@ -1,0 +1,66 @@
+body {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 20px;
+}
+
+.menu {
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 0px solid #f00;
+    background: darkgray;
+    color: blue;
+    border-radius: 5px;
+}
+
+.artigo {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+form {
+    background-color:lightgray;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.mais{
+    height: 200px;
+}
